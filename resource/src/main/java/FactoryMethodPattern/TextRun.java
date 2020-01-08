@@ -1,0 +1,1 @@
+package FactoryMethodPattern;import org.junit.Test;public class TextRun {    @Test    public void spend(){        SpendFactory factory = new SpendFactory();        Spender message = factory.product("message");        message.spend();        Spender mail = factory.product("mail");        mail.spend();    }}

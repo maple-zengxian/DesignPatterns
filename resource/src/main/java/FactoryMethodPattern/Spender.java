@@ -1,0 +1,1 @@
+package FactoryMethodPattern;public interface Spender {    void spend();}
