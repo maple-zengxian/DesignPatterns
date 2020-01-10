@@ -1,0 +1,1 @@
+package SingletonPattern;/** * 静态内部类创建单例 */public class SingletonExample1 {    private SingletonExample1(){}    private static class SingletonFactory{        private static SingletonExample1 singletonExample = new SingletonExample1();    }    public static SingletonExample1 getInstance(){        return SingletonFactory.singletonExample;    }}

@@ -1,0 +1,1 @@
+package AbstractFactoryPattern;public class SpendEmail implements Spender {    public void spend() {        System.out.println("发生邮件成功!");    }}

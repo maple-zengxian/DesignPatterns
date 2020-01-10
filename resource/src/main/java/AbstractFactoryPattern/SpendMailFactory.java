@@ -1,0 +1,1 @@
+package AbstractFactoryPattern;public class SpendMailFactory implements Provider {    public Spender produce() {        return new SpendEmail();    }}

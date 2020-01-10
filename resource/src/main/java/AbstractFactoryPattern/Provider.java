@@ -1,0 +1,1 @@
+package AbstractFactoryPattern;public interface Provider {    Spender produce();}

@@ -1,0 +1,1 @@
+package AbstractFactoryPattern;public class SpendMassage implements Spender {    public void spend() {        System.out.println("发送信息成功!");    }}

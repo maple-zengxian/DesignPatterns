@@ -1,0 +1,1 @@
+package AbstractFactoryPattern;import org.junit.Test;public class TestRun {    @Test    public void abstractFactory(){        new SpendMailFactory().produce().spend();        new SpendMessageFactory().produce().spend();    }}
