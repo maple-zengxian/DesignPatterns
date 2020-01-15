@@ -1,0 +1,1 @@
+package BuilderPattern;import org.junit.Test;public class TestRun {    @Test    public void run(){        ConcreteBuilder builder = new ConcreteBuilder();        Product product = new Director(builder).construct();        product.show();    }}
