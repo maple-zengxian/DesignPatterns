@@ -1,0 +1,1 @@
+package AdapterPattern;public class Adapter {    public void specificRequest(){        System.out.println("执行核心业务!");    }}

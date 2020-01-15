@@ -1,0 +1,1 @@
+package ProxyPattern;import org.junit.Test;public class TestRun {    @Test    public void run(){        ProxySubject proxy = new ProxySubject();        proxy.request();    }}
