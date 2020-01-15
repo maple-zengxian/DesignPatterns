@@ -1,0 +1,1 @@
+package PrototypePattern;import org.junit.Test;public class TestRun {    @Test    public void run() throws CloneNotSupportedException {        PrototypePattern pattern = new PrototypePattern();        PrototypePattern clone = (PrototypePattern)pattern.clone();        System.out.println(pattern == clone);    }}
