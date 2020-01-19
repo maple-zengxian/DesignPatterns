@@ -1,1 +1,1 @@
-package BridgePattern;public class Black {}
+package BridgePattern;public class Black implements Color{    @Override    public String getColor() {        return "black";    }}

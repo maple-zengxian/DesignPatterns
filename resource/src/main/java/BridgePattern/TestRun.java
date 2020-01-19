@@ -1,1 +1,1 @@
-package BridgePattern;public class TestRun {}
+package BridgePattern;import org.junit.Test;public class TestRun {    @Test    public void run(){        Color red = new Red();        Bag handBag = new HandBag();        handBag.setColor(red);        System.out.println(handBag.getName());    }}
