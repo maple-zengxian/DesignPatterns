@@ -1,0 +1,1 @@
+package DecoratorPattern;import org.junit.Test;public class TestRun {    @Test    public void run(){        ConcreteDecorator concreteDecorator = new ConcreteDecorator(new ConcreteComponent());        concreteDecorator.operation();    }}
